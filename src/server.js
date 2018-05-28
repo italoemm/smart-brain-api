@@ -78,8 +78,10 @@ app.post('/register', (req,res) => register.registerControl(req,res,bcrypt,db));
 
 app.post('/imageApiCall', (req,res) => image.imageApiCall(req,res))
 
-app.listen(process.env.PORT || 3001,() => { 
-    console.log(`it is running ${process.env.PORT}`);
+const port = process.env.PORT || 3001;
+
+app.listen(port,() => { 
+    console.log(port);
 });
 
 /*
