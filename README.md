@@ -1,6 +1,6 @@
 # smart-brain-api
 
-Back-end API for SmartBrain web app made using Node.js, Express.js and additional frameworks. Interacts with a PostgreSQL database.
+Back-end API for SmartBrain web app made using Node.js, Express.js and additional frameworks. Interacts with a PostgreSQL database with functions and procedures so do I.
 
 Tools/Frameworks:
 
